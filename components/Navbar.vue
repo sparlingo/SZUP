@@ -3,17 +3,26 @@
     <template slot="brand">
       <b-navbar-item tag="router-link" :to="{ path: '/' }">
         <img
-          src="https://raw.githubusercontent.com/buefy/buefy/dev/static/img/buefy-logo.png"
+          src="../static/shenzhen.png"
           alt="Lightweight UI components for Vue.js based on Bulma"
         >
       </b-navbar-item>
     </template>
     <template slot="start">
-      <b-navbar-item href="#">
+      <b-navbar-item href="/">
         Home
       </b-navbar-item>
-      <b-navbar-item href="#">
-        Documentation
+      <b-navbar-item href="whatisultimate">
+        What is Ultimate?
+      </b-navbar-item>
+      <b-navbar-item>
+        League
+      </b-navbar-item>
+      <b-navbar-item>
+        Photos
+      </b-navbar-item>
+      <b-navbar-item>
+        Fields
       </b-navbar-item>
       <b-navbar-dropdown label="Info">
         <b-navbar-item href="#">

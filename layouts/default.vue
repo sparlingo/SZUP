@@ -1,7 +1,9 @@
 <template>
   <div>
     <Navbar />
-    <Nuxt />
+    <div class="container is-fullhd">
+      <Nuxt />
+    </div>
   </div>
 </template>
 

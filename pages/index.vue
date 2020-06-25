@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
-    <div>
-      <h1>something</h1>
-    </div>
+  <div class="hero">
+    <h1 class="title">
+      Shenzhen Ultimate Frisbee
+    </h1>
   </div>
 </template>
 
