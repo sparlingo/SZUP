@@ -7,12 +7,7 @@
 </template>
 
 <script>
-export default {
-  asyncData ({ $sanity }) {
-    const query = '{ "fields": *[_type == "playing_field"] }'
-    return $sanity.fetch(query)
-  }
-}
+
 </script>
 
 <style>
