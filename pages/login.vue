@@ -67,7 +67,7 @@ export default {
       error: null
     }
   },
-
+  middleware: 'guest',
   methods: {
     async login () {
       try {
