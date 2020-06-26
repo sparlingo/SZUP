@@ -1,5 +1,5 @@
 {
-  "name": "szup",
+  "name": "szupa",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -16,7 +16,9 @@
     "@nuxtjs/axios": "^5.11.0",
     "@nuxtjs/pwa": "^3.0.0-beta.20",
     "nuxt": "^2.13.0",
-    "nuxt-buefy": "^0.3.31"
+    "nuxt-buefy": "^0.3.31",
+    "nuxt-leaflet": "^0.0.21",
+    "nuxt-sanity": "^0.0.8"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.0.0",

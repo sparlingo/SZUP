@@ -57,8 +57,14 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt/content
     '@nuxt/content', 
-    'nuxt-buefy'
+    'nuxt-buefy',
+    'nuxt-sanity',
+    'nuxt-leaflet'
   ],
+  sanity: {
+    projectId: '6egv2bjr',
+    dataset: 'development'
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options

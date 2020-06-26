@@ -21,7 +21,7 @@
       <b-navbar-item>
         Photos
       </b-navbar-item>
-      <b-navbar-item>
+      <b-navbar-item href="fields">
         Fields
       </b-navbar-item>
       <b-navbar-dropdown label="Info">
