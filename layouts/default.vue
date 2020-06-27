@@ -11,6 +11,7 @@
   .container {
     padding-top: 10px;
     margin-left: 5px;
+    margin-right: 5px;
   }
 </style>
 
