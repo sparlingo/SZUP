@@ -1,20 +1,28 @@
 <template>
-  <section class="section">
-    <div class="container">
-      <h2 class="title">
-        My Profile
-      </h2>
-      <div class="content">
-        <p>
-          <strong>Username:</strong>
-          {{ loggedInUser.username }}
-        </p>
-        <p>
-          <strong>Email:</strong>
-          {{ loggedInUser.email }}
-        </p>
+  <section class="sidebar-layout">
+    <b-sidebar
+      position="static"
+      :mobile="mobile"
+      :expand-on-hover="expandOnHover"
+      :reduce="reduce"
+      type="is-light"
+      open
+    >
+      <div class="p-1">
+        <b-menu class="is-custom-mobile">
+          <b-menu-list label="Menu">
+            <b-menu-item active expanded icon="account" :label="loggedInUser.username">
+              <b-menu-item icon="details" label="User Details" />
+              <b-menu-item icon="cellphone-link" label="Contact Details" />
+              <b-menu-item icon="cash-multiple" label="Payment Details" disabled />
+            </b-menu-item>
+          </b-menu-list>
+          <b-menu-list label="Actions">
+            <b-menu-item icon="logout" label="Logout" />
+          </b-menu-list>
+        </b-menu>
       </div>
-    </div>
+    </b-sidebar>
   </section>
 </template>
 

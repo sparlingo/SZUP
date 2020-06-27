@@ -60,6 +60,9 @@
   </b-navbar>
 </template>
 
+<style scoped>
+</style>
+
 <script>
 import { mapGetters } from 'vuex'
 
